@@ -1,6 +1,6 @@
 # VS Code Config
 ### Fonts
-[Installation](https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0) 
+[Installation](https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0)
 * [Fira code](https://github.com/tonsky/FiraCode)
 * [Flottflott](https://www.dafont.com/flottflott.font)
 ### Theme
@@ -64,12 +64,16 @@ Monokai Pro
 ### Settings
 ```json
 {
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
   "editor.fontSize": 15,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "vscode_custom_css.imports": ["file:///home/{$USER}/.vsextension/style.css"],
-  "vscode_custom_css.policy": true
+  "vscode_custom_css.policy": true,
+  "[html]": {
+      "editor.tabSize": 4
+  }
 }
 ```
 ### Plugins
