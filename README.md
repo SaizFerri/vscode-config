@@ -85,3 +85,4 @@ Monokai Pro
 * [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 * [vscode-pigments](https://marketplace.visualstudio.com/items?itemName=jaspernorth.vscode-pigments)
 * [IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
