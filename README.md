@@ -75,7 +75,7 @@ One Dark Pro
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "window.zoomLevel": 1,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
   "[html]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
