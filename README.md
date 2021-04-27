@@ -4,7 +4,7 @@
 * [Fira code](https://github.com/tonsky/FiraCode)
 * [Flottflott](https://www.dafont.com/flottflott.font)
 ### Theme
-Monokai Pro
+One Dark Pro
 ### Styles
 ```css
 .type.storage,.type.storage.declaration, .storage.class.modifier {
@@ -71,9 +71,31 @@ Monokai Pro
   "editor.fontLigatures": true,
   "vscode_custom_css.imports": ["file:///home/{$USER}/.vsextension/style.css"],
   "vscode_custom_css.policy": true,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true
   "[html]": {
-      "editor.tabSize": 4
-  }
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[twig]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
 }
 ```
 ### Plugins
@@ -84,6 +106,7 @@ Monokai Pro
 * [Custom CSS and JS loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
 * [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 * [EmojiCode](https://marketplace.visualstudio.com/items?itemName=idleberg.emoji-code)
+* [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 * [IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
